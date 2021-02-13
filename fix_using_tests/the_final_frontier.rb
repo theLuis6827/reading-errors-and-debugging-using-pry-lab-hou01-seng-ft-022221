@@ -11,6 +11,11 @@ end
 
 def engage
   date = generate_star_date
-  state_log(date)
+  puts state_log(date)
  # greet_crew(crew)
 end
+
+#def engage
+#  puts state_log(star_date)
+#  star_date = generate_star_date
+#end
