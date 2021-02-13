@@ -1,7 +1,7 @@
 require 'pry'
 
 def generate_star_date
-  ["Hello Geordi.", "Hello Data.", "Hello Worf.", "Hello William.", "Hello Beverly.", "Hello Deanna."]
+  (rand(100000) + 400000) / 10.0
 end
 
 
